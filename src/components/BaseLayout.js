@@ -3,6 +3,7 @@ import '/Users/kerispencer/Development/react/portfolio-app/src/styles/App.css'
 import Home from './Home'
 import Portfolio from './Portfolio'
 import About from './About'
+import { Link } from 'react-router-dom'
 
 class BaseLayout extends Component {
   render() {
@@ -11,7 +12,8 @@ class BaseLayout extends Component {
       fontFamily: 'Raleway',
       fontWeight: 'extra-light',
       marginTop: '133px',
-      fontSize: '30px'
+      fontSize: '30px',
+      marginBottom: 60
     }
 
     let navBar = {
@@ -27,16 +29,13 @@ class BaseLayout extends Component {
           <nav>
             <ul className="navBar" style={navBar}>
               <li className="navListItem">
-                Home
-                {/* <Link to="#">Home</Link> */}
+                <Link to="/">Home</Link>
               </li>
               <li className="navListItem">
-                About
-                {/* <Link to="#">About</Link> */}
+                <Link to="/about">About</Link>
               </li>
               <li className="navListItem">
-                Portfolio
-                {/* <Link to="#">Portfolio</Link> */}
+                <Link to="/portfolio">Portfolio</Link>
               </li>
             </ul>
           </nav>

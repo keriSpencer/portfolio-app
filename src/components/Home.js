@@ -21,26 +21,16 @@ class Home extends Component {
       marginTop: 0
     }
 
-    let content = (
+    return (
       <div>
         <h2 className="h2Styles" style={h2Styles}>
-          Portfolio of Kittens
+          Clowder of Kittens
         </h2>
         <h4 className="h4Styles" style={h4Styles}>
           Kittens Everywhere
         </h4>
       </div>
     )
-
-    return content
-    // <div>
-    //   <h2 className="h2Styles" style={h2Styles}>
-    //     Portfolio of Kittens
-    //   </h2>
-    //   <h4 className="h4Styles" style={h4Styles}>
-    //     Kittens Everywhere
-    //   </h4>
-    // </div>
   }
 }
 

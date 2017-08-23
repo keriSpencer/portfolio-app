@@ -12,7 +12,7 @@ class App extends Component {
     this.state = {
       home: '',
       about: '',
-      portfolio: []
+      portfolio: ''
     }
   }
 
@@ -20,8 +20,8 @@ class App extends Component {
     return (
       <BaseLayout>
         <Home home={this.state.home} />
-        {/* <About about={this.state.about} /> */}
-        {/* <Portfolio /> */}
+        <About about={this.state.about} />
+        <Portfolio porfolio={this.state.portfolio} />
       </BaseLayout>
     )
   }

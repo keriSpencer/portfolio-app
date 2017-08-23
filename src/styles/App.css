@@ -6,3 +6,17 @@ ul.navBar {
 li.navListItem {
   padding-right: 30px;
 }
+
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  padding-right: 30px;
+}
+
+.catPics {
+  display: flex;
+  justify-content: center;
+}

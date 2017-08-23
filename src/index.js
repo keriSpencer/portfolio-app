@@ -4,14 +4,22 @@ import './styles/index.css'
 import App from './components/App'
 import registerServiceWorker from './registerServiceWorker'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import BaseLayout from './components/BaseLayout'
 
-ReactDOM.render(<App />, document.getElementById('root'))
-registerServiceWorker()
+import Home from '/Users/kerispencer/Development/react/portfolio-app/src/components/Home.js'
+import About from '/Users/kerispencer/Development/react/portfolio-app/src/components/About.js'
+import Portfolio from '/Users/kerispencer/Development/react/portfolio-app/src/components/Portfolio.js'
 
-/* <BrowserRouter>
+ReactDOM.render(
+  <BrowserRouter>
     <BaseLayout>
       <Switch>
+        <Route path="/portfolio" component={Portfolio} />
+        <Route path="/about" component={About} />
         <Route path="/" component={Home} />
       </Switch>
     </BaseLayout>
-  </BrowserRouter>, */
+  </BrowserRouter>,
+  document.getElementById('root')
+)
+registerServiceWorker()
