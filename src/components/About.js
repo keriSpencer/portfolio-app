@@ -57,7 +57,7 @@ class About extends Component {
         </p>
 
         <h4 className="h4Styles" style={h4Styles}>
-          BananaRama
+          PorkChop
         </h4>
 
         <p className="pStyles" style={pStyles}>
@@ -76,7 +76,7 @@ class About extends Component {
         </p>
 
         <h4 className="h4Styles" style={h4Styles}>
-          GuacaChaca
+          BananaRama
         </h4>
 
         <p className="pStyles" style={pStyles}>
@@ -96,7 +96,7 @@ class About extends Component {
           going to catch the red dot today. Mesmerizing birds.
         </p>
         <h4 className="h4Styles" style={h4Styles}>
-          PorkChop
+          PopTart
         </h4>
         <p className="pStyles" style={pStyles}>
           Immediately regret falling into bathtub play riveting piece on synthesizer keyboard spit up on light gray

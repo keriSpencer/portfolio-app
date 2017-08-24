@@ -56,7 +56,7 @@ class Portfolio extends Component {
           </li>
           <li style={li}>
             <img src="http://lorempixel.com/250/200/cats" />
-            <h3 style={h3Styles}>GuacaChaca</h3>
+            <h3 style={h3Styles}>PopTart</h3>
           </li>
         </ul>
       </div>
