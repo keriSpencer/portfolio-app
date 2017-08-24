@@ -16,28 +16,18 @@ class BaseLayout extends Component {
       marginBottom: 60
     }
 
-    let navBar = {
-      fontFamily: 'Raleway',
-      fontWeight: 'extra-light',
-      listStyle: 'none',
-      fontSize: '20px'
-    }
+    // let navBar = {
+    //   fontFamily: 'Raleway',
+    //   fontWeight: 'extra-light',
+    //   listStyle: 'none',
+    //   fontSize: '20px'
+    // }
 
     return (
       <div className="wrap">
         <div className="nav-bar-header">
           <nav>
-            <ul className="navBar" style={navBar}>
-              <li className="navListItem">
-                <Link to="/">Home</Link>
-              </li>
-              <li className="navListItem">
-                <Link to="/about">About</Link>
-              </li>
-              <li className="navListItem">
-                <Link to="/portfolio">Portfolio</Link>
-              </li>
-            </ul>
+            <ul className="navBar" />
           </nav>
         </div>
 

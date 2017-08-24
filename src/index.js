@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom'
 import './styles/index.css'
 import App from './components/App'
 import registerServiceWorker from './registerServiceWorker'
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
+import { BrowserRouter, Route, Switch, NavLink } from 'react-router-dom'
 import BaseLayout from './components/BaseLayout'
 
 import Home from '/Users/kerispencer/Development/react/portfolio-app/src/components/Home.js'
@@ -13,6 +13,19 @@ import Portfolio from '/Users/kerispencer/Development/react/portfolio-app/src/co
 ReactDOM.render(
   <BrowserRouter>
     <BaseLayout>
+      <div className="centerText">
+        <nav className="navBar">
+          <NavLink activeClassName="selected" className="navListItem" exact to="/">
+            Home
+          </NavLink>
+          <NavLink activeClassName="selected" className="navListItem" to="/about">
+            About
+          </NavLink>
+          <NavLink activeClassName="selected" className="navListItem" to="/portfolio">
+            Portfolio
+          </NavLink>
+        </nav>
+      </div>
       <Switch>
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/about" component={About} />
