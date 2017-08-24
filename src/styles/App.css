@@ -1,8 +1,8 @@
 .navBar {
   display: flex;
   flex-direction: row;
-  font: 'Raleway';
-  font-weight: light;
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
   list-style: none;
   font-size: 20px;
   margin-left: 40px;
@@ -14,6 +14,12 @@
   padding: 5px;
   text-decoration: none;
   color: black;
+  margin-right: 14px;
+}
+
+.city {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
 }
 
 ul {
@@ -25,31 +31,31 @@ li {
   padding-right: 30px;
 }
 
+.contactStyle {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
 .catPics {
   display: flex;
   justify-content: center;
 }
 
-/*.selected {
-  border-color: #666;
-  border-radius: 50%;
-}*/
-
 .selected {
   background: #f2f3f4;
   border-radius: 50%;
   color: black;
-  font-weight: bold;
+  font-weight: 900;
   line-height: 5.6em;
   margin-right: 5px;
   text-align: center;
   width: 5.6em;
 }
 
-/*text-decoration: none;
-border: 1px solid #666;
-border-radius: 50%;
-height: 100px;
-width: 100px;
-background-color: #666;
-color: white;*/
+/*.flexOuter {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  align-content: center;
+}*/
