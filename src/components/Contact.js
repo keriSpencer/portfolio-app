@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import '/Users/kerispencer/Development/react/portfolio-app/src/styles/App.css'
 
 class Contact extends Component {
   constructor(props) {
@@ -11,18 +12,9 @@ class Contact extends Component {
       fontSize: 100,
       fontFamily: 'Baloo Bhaijaan',
       textAlign: 'center',
-      marginBottom: 0
+      marginBottom: 0,
+      marginTop: 0
     }
-
-    // let li = {
-    //   listStyle: 'none',
-    //   fontSize: '27',
-    //   fontFamily: 'Raleway',
-    //   fontWeight: 'extra-light',
-    //   textAlign: 'center',
-    //   marginTop: 0,
-    //   paddingTop: 31
-    // }
 
     let h4Styles = {
       fontSize: 27,
@@ -45,41 +37,35 @@ class Contact extends Component {
 
     let a = {
       color: 'black'
-      // textDecoration: 'none'
     }
 
     return (
       <div>
         <h2 className="h2Styles" style={h2Styles}>
-          Contact Us
+          Contact Me
         </h2>
-        <div className="flexOuter">
-          <h4 style={h4Styles}>Email</h4>
-          <p style={pStyles}>
-            <a href="https://twitter.com/EmrgencyKittens" style={a}>
-              info @ website.com
-            </a>
-          </p>
-          <h4 style={h4Styles}>Phone</h4>
-          <p style={pStyles}>555 555 5555</p>
-          <h4 style={h4Styles}>Twitter</h4>
-          <p style={pStyles}>
-            <a href="https://twitter.com/EmrgencyKittens" style={a}>
-              @EmrgencyKittens
-            </a>
-          </p>
-          <h4 style={h4Styles}>GitHub</h4>
-          <p style={pStyles}>
-            <a href="https://twitter.com/EmrgencyKittens" style={a}>
-              github.com/kittens
-            </a>
-          </p>
+        <div className="contactWrap">
+          <div className="upperWrap">
+            <h4 style={h4Styles}>Email</h4>
+            <p style={pStyles}>kerigspencer @ gmail.com</p>
+            <h4 style={h4Styles}>Phone</h4>
+            <p style={pStyles}>405 625 7150</p>
+          </div>
+          <div className="lowerWrap">
+            <h4 style={h4Styles}>Twitter</h4>
+            <p style={pStyles}>
+              <a href="https://twitter.com/keriSpencer_" style={a}>
+                @ keriSpencer_
+              </a>
+            </p>
+            <h4 style={h4Styles}>GitHub</h4>
+            <p style={pStyles}>
+              <a href="https://github.com/kerispencer" style={a}>
+                github.com/keriSpencer
+              </a>
+            </p>
+          </div>
         </div>
-        {/* <h4 style={h4Styles}>Email</h4>
-        <p style={pStyles}>info @ website.com</p> */}
-
-        {/* <h4 style={h4Styles}>Address</h4>
-        <p style={pStyles}>555 E Main | Tampa, FL | 33602</p> */}
       </div>
     )
   }

@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import CalcPic from '../images/withdrawalCalc.png'
 
 class Portfolio extends Component {
   constructor(props) {
@@ -18,7 +19,8 @@ class Portfolio extends Component {
       fontFamily: 'Raleway',
       fontWeight: 'extra-light',
       textAlign: 'center',
-      marginTop: 0
+      marginTop: 0,
+      color: '#666'
     }
 
     let h3Styles = {
@@ -36,27 +38,21 @@ class Portfolio extends Component {
     return (
       <div>
         <h2 className="h2Styles" style={h2Styles}>
-          Portfolio of Kittens
+          Portfolio
         </h2>
         <h4 className="h4Styles" style={h4Styles}>
-          Kittens Everywhere
+          Samples of my work
         </h4>
         <ul className="catPics">
           <li style={li}>
-            <img src="http://lorempixel.com/250/200/cats" />
-            <h3 style={h3Styles}>FlapJack</h3>
+            <img src={CalcPic} height="200px" width="auto" />
+            <h3 style={h3Styles}>Withdrawal Calculator</h3>
           </li>
           <li style={li}>
-            <img src="http://lorempixel.com/250/200/cats" />
-            <h3 style={h3Styles}>PorkChop</h3>
+            <h3 style={h3Styles}>Explori.us | Team Project</h3>
           </li>
           <li style={li}>
-            <img src="http://lorempixel.com/250/200/cats" />
-            <h3 style={h3Styles}>BananaRama</h3>
-          </li>
-          <li style={li}>
-            <img src="http://lorempixel.com/250/200/cats" />
-            <h3 style={h3Styles}>PopTart</h3>
+            <h3 style={h3Styles}>Calculator</h3>
           </li>
         </ul>
       </div>

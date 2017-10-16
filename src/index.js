@@ -29,9 +29,9 @@ ReactDOM.render(
           <NavLink activeClassName="selected" className="navListItem" to="/contact">
             Contact
           </NavLink>
-          <NavLink activeClassName="selected" className="navListItem" to="/references">
+          {/* <NavLink activeClassName="selected" className="navListItem" to="/references">
             References
-          </NavLink>
+          </NavLink> */}
         </nav>
       </div>
       <Switch>

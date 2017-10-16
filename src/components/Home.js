@@ -24,10 +24,10 @@ class Home extends Component {
     return (
       <div>
         <h2 className="h2Styles" style={h2Styles}>
-          Clowder of Kittens
+          Web Developer
         </h2>
         <h4 className="h4Styles" style={h4Styles}>
-          Kittens Everywhere
+          Keri Spencer
         </h4>
       </div>
     )

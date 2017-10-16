@@ -53,9 +53,25 @@ li {
   width: 5.6em;
 }
 
-/*.flexOuter {
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+.contactWrap {
   display: flex;
-  flex-direction: column;
-  width: 300px;
-  align-content: center;
-}*/
+  flex-direction: inherit;
+  justify-content: center;
+}
+
+.h4Styles {
+  margin-bottom: 4.2em;
+}
+
+h3 {
+  color: #666;
+}
+
+img {
+  border: 2px solid #d83c8a;
+}

@@ -14,8 +14,10 @@ class BaseLayout extends Component {
       fontFamily: 'Raleway',
       fontWeight: 'extra-light',
       marginTop: '133px',
-      fontSize: '30px',
-      marginBottom: 60
+      fontSize: '20px',
+      background: '#f2f3f4',
+      height: '2em',
+      paddingTop: '1em'
     }
 
     return (
@@ -28,7 +30,7 @@ class BaseLayout extends Component {
 
         {this.props.children}
         <footer className="footer" style={footer}>
-          <span>Name | Phone | Email</span>
+          <span>405 625 7150 | kerigspencer @ gmail.com</span>
         </footer>
       </div>
     )
