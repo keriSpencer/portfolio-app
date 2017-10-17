@@ -10,7 +10,8 @@ class About extends Component {
       fontSize: 100,
       fontFamily: 'Baloo Bhaijaan',
       textAlign: 'center',
-      marginBottom: 0
+      marginBottom: 0,
+      marginTop: 0
     }
 
     let h4Styles = {
@@ -20,7 +21,8 @@ class About extends Component {
       textAlign: 'left',
       marginTop: 100,
       marginLeft: 100,
-      marginBottom: 31
+      marginBottom: 31,
+      color: '#666'
     }
 
     let pStyles = {
@@ -30,7 +32,8 @@ class About extends Component {
       textAlign: 'justify',
       marginTop: 0,
       marginLeft: 100,
-      marginRight: 100
+      marginRight: 100,
+      color: '#666'
     }
 
     return (

@@ -18,7 +18,8 @@ class Home extends Component {
       fontFamily: 'Raleway',
       fontWeight: 'extra-light',
       textAlign: 'center',
-      marginTop: 0
+      marginTop: 0,
+      color: '#666'
     }
 
     return (

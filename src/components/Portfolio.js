@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import CalcPic from '../images/withdrawalCalc.png'
+import Explorius from '../images/exploriusHome.png'
+import redditRandom from '../images/redditRandomizer.png'
 
 class Portfolio extends Component {
   constructor(props) {
@@ -11,7 +13,8 @@ class Portfolio extends Component {
       fontSize: 100,
       fontFamily: 'Baloo Bhaijaan',
       textAlign: 'center',
-      marginBottom: 0
+      marginBottom: 0,
+      marginTop: 0
     }
 
     let h4Styles = {
@@ -40,7 +43,7 @@ class Portfolio extends Component {
         <h2 className="h2Styles" style={h2Styles}>
           Portfolio
         </h2>
-        <h4 className="h4Styles" style={h4Styles}>
+        <h4 id="h4samples" className="h4Styles" style={h4Styles}>
           Samples of my work
         </h4>
         <ul className="catPics">
@@ -49,10 +52,12 @@ class Portfolio extends Component {
             <h3 style={h3Styles}>Withdrawal Calculator</h3>
           </li>
           <li style={li}>
-            <h3 style={h3Styles}>Explori.us | Team Project</h3>
+            <img src={Explorius} height="200px" width="auto" />
+            <h3 style={h3Styles}>Explori.us</h3>
           </li>
           <li style={li}>
-            <h3 style={h3Styles}>Calculator</h3>
+            <img src={redditRandom} height="200px" width="auto" />
+            <h3 style={h3Styles}>News Feed Randomizer</h3>
           </li>
         </ul>
       </div>

@@ -58,6 +58,10 @@ a:link {
   text-decoration: none;
 }
 
+a.selected {
+  color: #d83c8a;
+}
+
 .contactWrap {
   display: flex;
   flex-direction: inherit;
@@ -74,4 +78,8 @@ h3 {
 
 img {
   border: 2px solid #d83c8a;
+}
+
+h4#h4samples {
+  margin-bottom: 3em;
 }

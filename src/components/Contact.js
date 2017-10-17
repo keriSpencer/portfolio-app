@@ -22,7 +22,8 @@ class Contact extends Component {
       fontWeight: 'extra-light',
       textAlign: 'center',
       marginTop: 50,
-      marginBottom: 10
+      marginBottom: 10,
+      color: '#666'
     }
 
     let pStyles = {
@@ -32,11 +33,12 @@ class Contact extends Component {
       textAlign: 'center',
       marginTop: 0,
       marginLeft: 100,
-      marginRight: 100
+      marginRight: 100,
+      color: '#666'
     }
 
     let a = {
-      color: 'black'
+      color: '#666'
     }
 
     return (
