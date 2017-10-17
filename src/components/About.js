@@ -33,7 +33,8 @@ class About extends Component {
       marginTop: 0,
       marginLeft: 100,
       marginRight: 100,
-      color: '#666'
+      color: '#666',
+      lineHeight: '1.5em'
     }
 
     return (
@@ -45,18 +46,19 @@ class About extends Component {
           Family
         </h4>
         <p className="pStyles" style={pStyles}>
-          Spending time with family and friends is what life is all about. Enriching their lives while simultaneously
-          enriching yours. I love to enjoy the people in my life and try new experiences with them.
+          Spending time with family and friends is what life is all about. I love enjoying the people in my life and
+          trying new experiences with them. A great afternoon at a favorite brunch spot and a glass of Prosecco or just
+          a group dinner at someone's home is one of my favorite ways to spend the day.
         </p>
         <h4 className="h4Styles" style={h4Styles}>
           Education
         </h4>
         <p className="pStyles" style={pStyles}>
-          Even though I am not in school, I never stop learning. From coding schools, to online courses, to local crash
-          courses and conferences, I do whatever I can to make sure that I am always learning. Jim Rohn has taught us,
-          'Never begrudge the money you spend on your own education.' I try to keep this in mind as I journey through
-          life. If I'm ever in a slump, I know that I need to start spending more time on bettering myself and the value
-          that I bring to society and my community.
+          Even though I am not usually in a classroom, I never want to learning. From coding schools, to online courses,
+          to local crash courses and conferences, I do whatever I can to make sure that I am always learning. Jim Rohn
+          has taught us, 'Never begrudge the money you spend on your own education.' I try to keep this in mind as I
+          journey through life. I know that the more time and energy I spend bettering myself, the greater value I can
+          bring to society and my community.
         </p>
         <h4 className="h4Styles" style={h4Styles}>
           Travel

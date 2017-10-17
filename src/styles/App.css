@@ -58,6 +58,11 @@ a:link {
   text-decoration: none;
 }
 
+a:visited {
+  color: #666;
+  text-decoration: none;
+}
+
 a.selected {
   color: #d83c8a;
 }
@@ -82,4 +87,12 @@ img {
 
 h4#h4samples {
   margin-bottom: 3em;
+}
+
+.sourceLinks {
+  font-weight: 900;
+}
+
+.sourceLinks:hover {
+  text-decoration: underline;
 }

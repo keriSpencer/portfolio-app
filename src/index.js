@@ -11,6 +11,9 @@ import About from '/Users/kerispencer/Development/react/portfolio-app/src/compon
 import Portfolio from '/Users/kerispencer/Development/react/portfolio-app/src/components/Portfolio.js'
 import Contact from '/Users/kerispencer/Development/react/portfolio-app/src/components/Contact.js'
 import References from '/Users/kerispencer/Development/react/portfolio-app/src/components/References.js'
+import Calculator from '/Users/kerispencer/Development/react/portfolio-app/src/components/Calculator.js'
+import Explorius from '/Users/kerispencer/Development/react/portfolio-app/src/components/Explorius.js'
+import NewsFeed from '/Users/kerispencer/Development/react/portfolio-app/src/components/NewsFeed.js'
 
 ReactDOM.render(
   <BrowserRouter>
@@ -35,11 +38,14 @@ ReactDOM.render(
         </nav>
       </div>
       <Switch>
+        <Route path="/newsfeed" component={NewsFeed} />
+        <Route path="/explorius" component={Explorius} />
+        <Route path="/calculator" component={Calculator} />
         <Route path="/references" component={References} />
         <Route path="/contact" component={Contact} />
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/about" component={About} />
-        <Route path="/" component={Home} />
+        <Route exact path="/" component={Home} />
       </Switch>
     </BaseLayout>
   </BrowserRouter>,

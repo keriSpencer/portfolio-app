@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import CalcPic from '../images/withdrawalCalc.png'
 import Explorius from '../images/exploriusHome.png'
 import redditRandom from '../images/redditRandomizer.png'
+import { Link } from 'react-router-dom'
 
 class Portfolio extends Component {
   constructor(props) {
@@ -44,20 +45,26 @@ class Portfolio extends Component {
           Portfolio
         </h2>
         <h4 id="h4samples" className="h4Styles" style={h4Styles}>
-          Samples of my work
+          Samples of my Work
         </h4>
         <ul className="catPics">
           <li style={li}>
             <img src={CalcPic} height="200px" width="auto" />
-            <h3 style={h3Styles}>Withdrawal Calculator</h3>
+            <h3 style={h3Styles}>
+              <Link to="/calculator">Withdrawal Calculator</Link>
+            </h3>
           </li>
           <li style={li}>
             <img src={Explorius} height="200px" width="auto" />
-            <h3 style={h3Styles}>Explori.us</h3>
+            <h3 style={h3Styles}>
+              <Link to="/explorius">Explorius</Link>
+            </h3>
           </li>
           <li style={li}>
             <img src={redditRandom} height="200px" width="auto" />
-            <h3 style={h3Styles}>News Feed Randomizer</h3>
+            <h3 style={h3Styles}>
+              <Link to="/newsfeed">News Feed Randomizer</Link>
+            </h3>
           </li>
         </ul>
       </div>
