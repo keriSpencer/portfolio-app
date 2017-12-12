@@ -18,7 +18,8 @@ class BaseLayout extends Component {
       fontSize: '20px',
       background: '#f2f3f4',
       height: '2em',
-      paddingTop: '1em'
+      paddingTop: '1em',
+      color: '#666'
     }
 
     return (
