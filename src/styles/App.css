@@ -81,8 +81,12 @@ h3 {
   color: #666;
 }
 
-img {
+img:hover {
   border: 2px solid #d83c8a;
+}
+
+img {
+  border: 2px solid #666;
 }
 
 h4#h4samples {
