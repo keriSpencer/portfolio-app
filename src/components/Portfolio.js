@@ -49,19 +49,25 @@ class Portfolio extends Component {
         </h4>
         <ul className="catPics">
           <li style={li}>
-            <img src={CalcPic} height="200px" width="auto" />
+            <Link to="/calculator">
+              <img src={CalcPic} height="200px" width="auto" />
+            </Link>
             <h3 style={h3Styles}>
               <Link to="/calculator">Withdrawal Calculator</Link>
             </h3>
           </li>
           <li style={li}>
-            <img src={Explorius} height="200px" width="auto" />
+            <Link to="/explorius">
+              <img src={Explorius} height="200px" width="auto" />
+            </Link>
             <h3 style={h3Styles}>
               <Link to="/explorius">Explorius</Link>
             </h3>
           </li>
           <li style={li}>
-            <img src={redditRandom} height="200px" width="auto" />
+            <Link to="/newsfeed">
+              <img src={redditRandom} height="200px" width="auto" />
+            </Link>
             <h3 style={h3Styles}>
               <Link to="/newsfeed">News Feed Randomizer</Link>
             </h3>

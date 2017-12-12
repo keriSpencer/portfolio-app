@@ -6,6 +6,7 @@ import About from './About'
 import Contact from './Contact'
 import References from './References'
 import { Link } from 'react-router-dom'
+import FontAwesome from 'react-fontawesome'
 
 class BaseLayout extends Component {
   render() {
@@ -30,7 +31,12 @@ class BaseLayout extends Component {
 
         {this.props.children}
         <footer className="footer" style={footer}>
-          <span>405 625 7150 | kerigspencer @ gmail.com</span>
+          <span>
+            405 625 7150 | kerigspencer @ gmail.com | {' '}
+            <a href="https://twitter.com/keriSpencer_">
+              <FontAwesome className="fa-twitter" name="fa-twitter" /> keriSpencer_
+            </a>
+          </span>
         </footer>
       </div>
     )
